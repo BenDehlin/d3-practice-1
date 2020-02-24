@@ -17,8 +17,8 @@ const BarChartFunctional = props => {
     const svgCanvas = d3
       .select(canvas.current)
       .append("svg")
-      .attr("width", 600)
-      .attr("height", 400)
+      .attr("width", canvasWidth)
+      .attr("height", canvasHeight)
       .style("border", "1px solid black")
 
     //draw bars
